@@ -1,25 +1,25 @@
 class Knightwatch < Formula
   desc "System Monitoring tool"
   homepage "https://github.com/YofaGh/knightwatch"
-  version "1.0.13"
+  version "1.0.14"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/YofaGh/knightwatch/releases/download/v1.0.13/knightwatch-aarch64-apple-darwin.tar.xz"
-      sha256 "3f5154cedce56b744fbdfaa7ded12ee260283b38ac53d3bb5fa3959425cf1a58"
+      url "https://github.com/YofaGh/knightwatch/releases/download/v1.0.14/knightwatch-aarch64-apple-darwin.tar.xz"
+      sha256 "10af9e1e67ed0aec8b7fa98518bf39db48d5274420bbb14556c875c6c7ba689b"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/YofaGh/knightwatch/releases/download/v1.0.13/knightwatch-x86_64-apple-darwin.tar.xz"
-      sha256 "f027e9e8f5af8e269f25c25f10a6b90e9f5cbb350a7acf66e4ff67262a401826"
+      url "https://github.com/YofaGh/knightwatch/releases/download/v1.0.14/knightwatch-x86_64-apple-darwin.tar.xz"
+      sha256 "cab394b23c603e8d2a62f1130e25a24035f309a9378c749cd97d6a43c6dca19a"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/YofaGh/knightwatch/releases/download/v1.0.13/knightwatch-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "f44253b14e7dfb16480393ce7f5e61bfe5bd7b2679663c061d9cf570a879b58f"
+      url "https://github.com/YofaGh/knightwatch/releases/download/v1.0.14/knightwatch-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "ab5d79688868768756ece7bf152e46fdd252e9c523dbd24015d7ddfeecf5cfbf"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/YofaGh/knightwatch/releases/download/v1.0.13/knightwatch-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "8269422f3266f162b77f1212df8dbfa152ed86ce08397e7d153c9a19f1185aa8"
+      url "https://github.com/YofaGh/knightwatch/releases/download/v1.0.14/knightwatch-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "9041dea16c4b66c6f4714f869d641304aba07d61edfb5c1a97dfa6dad3bf96f7"
     end
   end
   license "MIT"
